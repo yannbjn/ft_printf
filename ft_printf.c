@@ -6,7 +6,7 @@
 /*   By: yabejani <yabejani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 12:38:36 by yabejani          #+#    #+#             */
-/*   Updated: 2023/11/20 16:17:15 by yabejani         ###   ########.fr       */
+/*   Updated: 2023/11/29 18:34:07 by yabejani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	ft_printf(const char *form, ...)
 	va_list	args;
 
 	if (!form)
-		return (0);
+		return (-1);
 	len = 0;
 	i = 0;
 	va_start(args, form);
